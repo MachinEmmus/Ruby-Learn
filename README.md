@@ -30,5 +30,3 @@ Los lenguages interpretados son usados para darle instrucción a otro software u
 
 Ruby es un lenguaje dinámico he interpretado
 
-
-# Ruby-Learn
