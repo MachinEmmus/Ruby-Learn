@@ -1,0 +1,19 @@
+def greet
+    puts "what´s your name?"
+    name = gets.chomp
+    yield name
+end
+greet do |name|
+    puts "Hello #{name}"
+end
+
+# Other Form
+
+def greet2 (question, &my_block)
+    puts question
+    name = gets.chomp
+    my_block.call(name)
+end
+greet2("What´s your name?") do |name|
+    puts "Hello #{name}!"
+end
